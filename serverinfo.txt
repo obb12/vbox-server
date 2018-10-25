@@ -1,0 +1,256 @@
+server:
+    ----------
+    SSDs:
+    biosreleasedate:
+        12/01/2006
+    biosversion:
+        VirtualBox
+    cpu_flags:
+        - fpu
+        - vme
+        - de
+        - pse
+        - tsc
+        - msr
+        - pae
+        - mce
+        - cx8
+        - apic
+        - sep
+        - mtrr
+        - pge
+        - mca
+        - cmov
+        - pat
+        - pse36
+        - clflush
+        - mmx
+        - fxsr
+        - sse
+        - sse2
+        - syscall
+        - nx
+        - rdtscp
+        - lm
+        - constant_tsc
+        - rep_good
+        - nopl
+        - xtopology
+        - nonstop_tsc
+        - cpuid
+        - pni
+        - pclmulqdq
+        - monitor
+        - ssse3
+        - cx16
+        - pcid
+        - sse4_1
+        - sse4_2
+        - x2apic
+        - movbe
+        - popcnt
+        - aes
+        - xsave
+        - avx
+        - rdrand
+        - hypervisor
+        - lahf_lm
+        - abm
+        - 3dnowprefetch
+        - invpcid_single
+        - pti
+        - fsgsbase
+        - avx2
+        - invpcid
+        - rdseed
+        - clflushopt
+    cpu_model:
+        Intel(R) Core(TM) i5-7400 CPU @ 3.00GHz
+    cpuarch:
+        x86_64
+    disks:
+        - loop1
+        - loop6
+        - loop4
+        - sr0
+        - loop2
+        - loop0
+        - loop7
+        - sda
+        - loop5
+        - loop3
+    dns:
+        ----------
+        domain:
+        ip4_nameservers:
+            - 127.0.0.53
+        ip6_nameservers:
+        nameservers:
+            - 127.0.0.53
+        options:
+        search:
+        sortlist:
+    domain:
+    fqdn:
+        server
+    fqdn_ip4:
+        - 192.168.8.107
+    fqdn_ip6:
+        - fe80::a00:27ff:fe7a:1320
+    gid:
+        0
+    gpus:
+        |_
+          ----------
+          model:
+              VirtualBox Graphics Adapter
+          vendor:
+              unknown
+    groupname:
+        root
+    host:
+        server
+    hwaddr_interfaces:
+        ----------
+        enp0s3:
+            08:00:27:7a:13:20
+        lo:
+            00:00:00:00:00:00
+    id:
+        server
+    init:
+        systemd
+    ip4_interfaces:
+        ----------
+        enp0s3:
+            - 192.168.8.107
+        lo:
+            - 127.0.0.1
+    ip6_interfaces:
+        ----------
+        enp0s3:
+            - fe80::a00:27ff:fe7a:1320
+        lo:
+            - ::1
+    ip_interfaces:
+        ----------
+        enp0s3:
+            - 192.168.8.107
+            - fe80::a00:27ff:fe7a:1320
+        lo:
+            - 127.0.0.1
+            - ::1
+    ipv4:
+        - 127.0.0.1
+        - 192.168.8.107
+    ipv6:
+        - ::1
+        - fe80::a00:27ff:fe7a:1320
+    kernel:
+        Linux
+    kernelrelease:
+        4.15.0-38-generic
+    locale_info:
+        ----------
+        defaultencoding:
+            UTF-8
+        defaultlanguage:
+            en_US
+        detectedencoding:
+            UTF-8
+    localhost:
+        server
+    lsb_distrib_codename:
+        bionic
+    lsb_distrib_description:
+        Ubuntu 18.04.1 LTS
+    lsb_distrib_id:
+        Ubuntu
+    lsb_distrib_release:
+        18.04
+    machine_id:
+        4e8577cba84f4a76becf7968c9820cf5
+    manufacturer:
+        innotek GmbH
+    master:
+        192.168.8.108
+    mdadm:
+    mem_total:
+        985
+    nodename:
+        server
+    num_cpus:
+        1
+    num_gpus:
+        1
+    os:
+        Ubuntu
+    os_family:
+        Debian
+    osarch:
+        amd64
+    oscodename:
+        bionic
+    osfinger:
+        Ubuntu-18.04
+    osfullname:
+        Ubuntu
+    osmajorrelease:
+        18
+    osrelease:
+        18.04
+    osrelease_info:
+        - 18
+        - 4
+    path:
+        /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    pid:
+        2740
+    productname:
+        VirtualBox
+    ps:
+        ps -efHww
+    pythonexecutable:
+        /usr/bin/python3
+    pythonpath:
+        - /usr/bin
+        - /usr/lib/python36.zip
+        - /usr/lib/python3.6
+        - /usr/lib/python3.6/lib-dynload
+        - /usr/local/lib/python3.6/dist-packages
+        - /usr/lib/python3/dist-packages
+    pythonversion:
+        - 3
+        - 6
+        - 6
+        - final
+        - 0
+    saltpath:
+        /usr/lib/python3/dist-packages/salt
+    saltversion:
+        2017.7.4
+    saltversioninfo:
+        - 2017
+        - 7
+        - 4
+        - 0
+    server_id:
+        535413430
+    shell:
+        /bin/sh
+    systemd:
+        ----------
+        features:
+            +PAM +AUDIT +SELINUX +IMA +APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD -IDN2 +IDN -PCRE2 default-hierarchy=hybrid
+        version:
+            237
+    uid:
+        0
+    username:
+        root
+    uuid:
+        88580180-598d-439d-b84e-3e737d2e3e16
+    virtual:
+        VirtualBox
+    zmqversion:
+        4.2.5
